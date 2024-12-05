@@ -26,6 +26,10 @@ class BadCalculator:
         self.num1 = num1
         self.num2 = num2
 
+    def change_nums(self, num1, num2):
+        self.num1 = num1
+        self.num2 = num2
+
 
 pair_1 = BadCalculator(15, 3)
 print(pair_1)  # <Bad Calculator - can only do 15*3 and 15/3>
