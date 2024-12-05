@@ -26,6 +26,7 @@ class BadCalculator:
         self.num1 = num1
         self.num2 = num2
 
+    # setter
     def change_nums(self, num1, num2):
         self.num1 = num1
         self.num2 = num2
