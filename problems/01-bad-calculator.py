@@ -20,6 +20,8 @@
 #   only do {num1}*{num2} and {num1}/{num2}>"
 
 # Declare your class here
+class BadCalculator:
+
 
 
 pair_1 = BadCalculator(15, 3)
