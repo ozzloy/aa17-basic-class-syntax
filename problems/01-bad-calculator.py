@@ -36,6 +36,7 @@ class BadCalculator:
     def div_nums(self):
         if self.num2 == 0:
             return "i'm sorry, dave.  i can't do that"
+        return self.num1 / self.num2
 
 
 pair_1 = BadCalculator(15, 3)
