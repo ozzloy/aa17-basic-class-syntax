@@ -23,7 +23,7 @@
 # Declare your class here
 class BadCalculator:
     def __init__(self, num1, num2):
-        pass
+        self.num1 = num1
 
 
 pair_1 = BadCalculator(15, 3)
