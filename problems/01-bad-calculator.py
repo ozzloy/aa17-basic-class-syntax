@@ -33,6 +33,10 @@ class BadCalculator:
     def mult_nums(self):
         return self.num1 * self.num2
 
+    def div_nums(self):
+        if self.num2 == 0:
+            return "i'm sorry, dave.  i can't do that"
+
 
 pair_1 = BadCalculator(15, 3)
 print(pair_1)  # <Bad Calculator - can only do 15*3 and 15/3>
