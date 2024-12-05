@@ -31,9 +31,11 @@ class BadCalculator:
         self.num1 = num1
         self.num2 = num2
 
+    # doer
     def mult_nums(self):
         return self.num1 * self.num2
 
+    # doer
     def div_nums(self):
         if self.num2 == 0:
             return "i'm sorry, dave.  i can't do that"
