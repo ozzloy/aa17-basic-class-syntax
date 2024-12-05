@@ -22,7 +22,7 @@
 
 # Declare your class here
 class BadCalculator:
-    def __init__(self):
+    def __init__(self, num1, num2):
         pass
 
 
