@@ -19,9 +19,11 @@
 # 5. A __repr__ method that returns the string: "<Bad Calculator - can
 #   only do {num1}*{num2} and {num1}/{num2}>"
 
+
 # Declare your class here
 class BadCalculator:
-
+    def __init__(self):
+        pass
 
 
 pair_1 = BadCalculator(15, 3)
